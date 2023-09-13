@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-image: url(./IMG_4683.JPG);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.brand {
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    background-color: rgba(34, 33, 33, 0.522);
+}
+a{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 1.2rem;
+    text-decoration: none;
+}
+a:hover{
+        color: rgb(236, 0, 0);
+}
+
+
+
+main{
+        display: flex; 
+        margin: 5px;
+}
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 18px;
+    backdrop-filter: blur(5px);
+   
+    flex: 6;
+    color: white;
+    background-color: rgba(0, 0, 0, rgba(0, 0, 0, 0.522));
+}
+em{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    padding: 10px ;
+    margin: 5px;
+    font-size: 70px;
+    display: flex;
+}
+h2{
+    margin: 15px;
+}
+
+p{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.images{
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .5);
+    background-color: rgba(0, 0, 0, .1);
+    flex: 1;
+    border-radius: 5px;
+    padding: 9px;
+}
+video{
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5) ;
+    flex: 1;
+    width: 350px;
+    display: flex;
+}
+.end{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.top{
+    font-size: 30px;
+    border: 3px rgba(255, 255, 255, 0.302) solid;
+    color: white;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    padding: 10px;
+    margin: 25px;
+    justify-content: space-between;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.379);
+    background-color: rgba(34, 33, 33, 0.522);
+}
+.noscam{
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
